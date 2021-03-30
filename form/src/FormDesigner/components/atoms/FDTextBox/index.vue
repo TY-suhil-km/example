@@ -197,6 +197,7 @@ export default class FDTextBox extends Mixins(FdControlVue) {
     } else {
       display = controlProp.Width === 0 || controlProp.Height === 0 ? 'none' : 'block'
     }
+    //kjsncsjdcnsjdncn
     return {
       cursor: this.isEditMode ? this.controlCursor : '',
       left: `${controlProp.Left}px`,
